@@ -6,7 +6,7 @@
 
 	.section-box {
 		gap: 1rem;
-		padding-bottom: 27.5rem;
+		/* padding-bottom: 27.5rem; */
 	}
 
 	.nav-txt {
@@ -16,7 +16,7 @@
 	.timer-box {
 		margin-top: 2rem;
 		gap: 1rem;
-		padding-bottom: 14rem;
+		padding-bottom: 11rem;
 	}
 
 	.timer,
