@@ -1,0 +1,103 @@
+@media (max-width: 34em) {
+	html {
+		background-image: url('img/abyss_background.webp');
+		height: 100%;
+	}
+
+	.section-box {
+		gap: 1rem;
+		padding-bottom: 27.5rem;
+	}
+
+	.nav-txt {
+		font-size: 1.2rem;
+	}
+
+	.timer-box {
+		margin-top: 2rem;
+		gap: 1rem;
+		padding-bottom: 14rem;
+	}
+
+	.timer,
+	.day-timer,
+	.maintenance-timer {
+		font-size: 1.6rem;
+	}
+
+	.txt {
+		font-size: 1.8rem;
+		display: flex;
+		justify-content: center;
+		width: 30rem;
+	}
+
+	.character-card {
+		height: 10rem;
+		width: 10rem;
+		background-color: bisque;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		padding-bottom: 11rem;
+		position: relative;
+	}
+
+	.character-img {
+		height: 10rem;
+		width: 10rem;
+		background-color: rgb(199, 132, 7);
+		border-bottom-right-radius: 30px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+
+	.character-element {
+		height: 2rem;
+		width: 2rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-left: 0.3rem;
+		margin-top: 0.3rem;
+	}
+
+	.four-star {
+		height: 10rem;
+		width: 10rem;
+		background-color: purple;
+		border-bottom-right-radius: 30px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+
+	.lvl-description {
+		padding: 1rem;
+		background-color: bisque;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		font-size: 1.6rem;
+		text-align: center;
+		color: black;
+	}
+
+	.align-cards {
+		display: flex;
+		margin-top: 4rem;
+		gap: 10rem;
+	}
+
+	/*///////////////*/
+
+	.bottom-structure {
+		margin-top: 5rem;
+	}
+
+	.card {
+		margin: 0;
+	}
+
+	.text-title {
+		font-size: 2.6rem;
+		margin-top: 2rem;
+	}
+}

@@ -1,0 +1,196 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-image: url('img/abyss_background.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 62.5%;
+	font-family: 'HYWenHei-85W', sans-serif;
+	color: #fff;
+}
+
+.section-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.548);
+	padding-bottom: 31rem;
+	padding-top: 2rem;
+	gap: 8rem;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-txt {
+	font-size: 2.8rem;
+	margin: 1rem;
+	padding: 0.8rem;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	color: #fff;
+	background-color: black;
+	transition: all 0.3s;
+}
+
+.nav-txt:hover {
+	transition: 0.3s;
+	border: 1px solid rgb(68, 68, 252);
+}
+
+.genshin__tab {
+	transform: translateY(30%);
+}
+
+.genshin__tab--active {
+	transform: translateY(10%);
+	border: 1px solid rgb(68, 68, 252);
+}
+
+.genshin__tab span {
+	margin-right: 1rem;
+	font-weight: 600;
+	display: inline-block;
+}
+
+.genshin__content {
+	display: none;
+
+	/* JUST PRESENTATIONAL */
+	/* font-size: 1.7rem;
+	padding: 2.5rem 7rem 6.5rem 7rem; */
+}
+
+.genshin__content--active {
+	display: contents;
+	/* grid-template-columns: 7rem 1fr;
+	column-gap: 3rem;
+	row-gap: 0.5rem; */
+}
+
+/*/////////////////////////////////////////////////////
+////////////// Genshin Countdown Timer ////////////////
+/////////////////////////////////////////////////////*/
+
+.timer-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.timer,
+.day-timer,
+.maintenance-timer {
+	font-size: 6rem;
+}
+
+.txt {
+	font-size: 4rem;
+	margin-top: 0.5rem;
+}
+
+.character-card {
+	height: 20rem;
+	width: 20rem;
+	background-color: bisque;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding-bottom: 22rem;
+	position: relative;
+}
+
+.character-img {
+	height: 20rem;
+	width: 20rem;
+	background-color: rgb(199, 132, 7);
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.character-element {
+	height: 4rem;
+	width: 4rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 0.3rem;
+	margin-top: 0.3rem;
+}
+
+.four-star {
+	height: 20rem;
+	width: 20rem;
+	background-color: purple;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.lvl-description {
+	padding: 1.5rem;
+	background-color: bisque;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 1.6rem;
+	text-align: center;
+	color: black;
+}
+
+.align-cards {
+	display: flex;
+	margin-top: 4rem;
+	gap: 10rem;
+}
+
+/*//////////////////////////////////////////////////
+///////////////// Genshin Randomizer ///////////////
+//////////////////////////////////////////////////*/
+.text-title {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	color: white;
+	font-weight: 600;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bottom-structure {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 5rem;
+}
+
+.text-result,
+.message {
+	font-size: 2.4rem;
+	color: white;
+	font-weight: 600;
+}
+
+.button {
+	background-color: aliceblue;
+	display: inline-block;
+	padding: 1.8rem 2.6rem;
+	border-radius: 10px;
+	font-size: 1.6rem;
+	cursor: pointer;
+	color: black;
+}

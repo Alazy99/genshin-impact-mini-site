@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Genshin Impact Mini Site</title>
+		<link rel="shortcut icon" href="img/elements/dendro.png" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="queries.css" />
+		<script defer src="script.js"></script>
+	</head>
+	<body>
+		<div class="genshin__operations">
+			<main class="section-box">
+				<section class="nav genshin__tab-container">
+					<button
+						class="nav-txt genshin__tab genshin__tab--active"
+						data-tab="1"
+					>
+						<span>01</span>Genshin Countdown
+					</button>
+					<button class="nav-txt genshin__tab" data-tab="2">
+						<span>02</span>Genshin Randomizer
+					</button>
+				</section>
+				<section
+					class="genshin__content genshin__content--1 genshin__content--active"
+				>
+					<div class="timer-box">
+						<div class="timer">40:00:00:00</div>
+						<div class="day-timer">
+							40 days till Genshin Impact goes into maintenance
+						</div>
+						<p class="maintenance-timer">Maintenace Timer: 05:00:00</p>
+						<p class="txt">
+							The following characters below are coming in the next version:
+						</p>
+						<div class="align-cards">
+							<div class="character-card">
+								<img
+									class="character-img"
+									src="img/genshin_countdown_ch/dehya_card.webp"
+									alt="Dehya Character Card"
+								/>
+								<p class="lvl-description">Lv. 1</p>
+								<img
+									class="character-element"
+									src="img/elements/pyro.webp"
+									alt="Pyro Element"
+								/>
+							</div>
+							<div class="character-card">
+								<img
+									class="character-img four-star"
+									src="img/genshin_countdown_ch/mika_card.webp"
+									alt="Shenhe Character Card"
+								/>
+								<p class="lvl-description">Lv. 1</p>
+								<img
+									class="character-element"
+									src="img/elements/cryo.png"
+									alt="Cryo Element"
+								/>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="genshin__content genshin__content--2 section-query">
+					<main>
+						<div class="card">
+							<p class="text-title">Genshin Impact Randomizer</p>
+							<div class="character-card">
+								<img
+									class="character-img"
+									id="character--card"
+									src="img/genshin_characters/card-6.webp"
+									alt="Shenhe Character Card"
+								/>
+								<p class="lvl-description">Lv. 90</p>
+								<img
+									class="character-element"
+									id="character--element"
+									src="img/elements/hydro.png"
+									alt="Hydro Element"
+								/>
+							</div>
+						</div>
+					</main>
+					<div class="bottom-structure">
+						<div class="text-result">You got Yelan!</div>
+						<p class="message">Click for a random character!</p>
+						<div class="button">Click</div>
+					</div>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>
