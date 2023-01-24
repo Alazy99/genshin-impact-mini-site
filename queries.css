@@ -2,7 +2,7 @@
 	html {
 		background-image: url('img/abyss_background.webp');
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.548);
+		background-color: black;
 		display: block;
 		height: 100%;
 	}
@@ -18,7 +18,7 @@
 	.timer-box {
 		margin-top: 2rem;
 		gap: 1rem;
-		padding-bottom: 41.5rem;
+		padding-bottom: 23.5rem;
 	}
 
 	.timer,
@@ -92,6 +92,7 @@
 
 	.bottom-structure {
 		margin-top: 5rem;
+		padding-bottom: 10rem;
 	}
 
 	.card {

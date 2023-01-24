@@ -181,6 +181,7 @@ html {
 	justify-content: center;
 	align-items: center;
 	row-gap: 5rem;
+	padding-bottom: 23rem;
 }
 
 .text-result,
