@@ -7,6 +7,7 @@
 	.section-box {
 		gap: 1rem;
 		/* padding-bottom: 27.5rem; */
+		padding-bottom: 0;
 	}
 
 	.nav-txt {
