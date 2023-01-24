@@ -2,12 +2,13 @@
 	html {
 		background-image: url('img/abyss_background.webp');
 		height: 100%;
+		background-color: rgba(0, 0, 0, 0.548);
+		display: block;
+		height: 100%;
 	}
 
 	.section-box {
 		gap: 1rem;
-		/* padding-bottom: 27.5rem; */
-		padding-bottom: 0;
 	}
 
 	.nav-txt {
@@ -17,7 +18,7 @@
 	.timer-box {
 		margin-top: 2rem;
 		gap: 1rem;
-		padding-bottom: 11rem;
+		padding-bottom: 41.5rem;
 	}
 
 	.timer,

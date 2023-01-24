@@ -11,6 +11,8 @@ html {
 	font-size: 62.5%;
 	font-family: 'HYWenHei-85W', sans-serif;
 	color: #fff;
+	background-color: rgba(0, 0, 0, 0.548);
+	height: fit-content;
 }
 
 .section-box {
@@ -19,9 +21,12 @@ html {
 	align-items: center;
 	flex-direction: column;
 	background-color: rgba(0, 0, 0, 0.548);
-	padding-bottom: 31rem;
 	padding-top: 2rem;
 	gap: 8rem;
+}
+
+.timer-box {
+	padding-bottom: 27rem;
 }
 
 .nav {
