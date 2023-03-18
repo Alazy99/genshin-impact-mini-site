@@ -24,7 +24,7 @@ const maintenaceTimer = function () {
 	let timer;
 	const timerMain = function () {
 		const date_1 = new Date().getTime();
-		const date_2 = new Date('Feb 28, 2023 22:00:00').getTime();
+		const date_2 = new Date('Apr 11, 2023 22:00:00').getTime();
 
 		const differenceTime = date_2 - date_1;
 		const [hours, minutes, seconds] = hourTime(differenceTime);
@@ -45,7 +45,7 @@ const maintenaceTimer = function () {
 const countDownTimer = function () {
 	let timer;
 	const tick = function () {
-		const countDownDate = new Date('Feb 28, 2023 17:00:00').getTime();
+		const countDownDate = new Date('Apr 11, 2023 17:00:00').getTime();
 
 		const now = new Date().getTime();
 
