@@ -5,7 +5,7 @@ const labelTimer = document.querySelector('.timer');
 const mainTimer = document.querySelector('.maintenance-timer');
 
 /////////////////////////////////////////////////////
-// Genshin Randomizer Code
+// Genshin Countdown Code
 
 const hourTime = function (difference) {
 	const hours = String(
